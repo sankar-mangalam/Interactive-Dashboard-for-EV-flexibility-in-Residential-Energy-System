@@ -8,6 +8,8 @@ The underlying research and detailed methodology are described in:
 
 
 ## Interactive Dashboard
+****<img width="1587" height="944" alt="image" src="https://github.com/user-attachments/assets/9ea4d479-b9cc-408e-b651-74c22a2f76d0" />
+
 
 --> [Launch the Streamlit dashboard](YOUR_STREAMLIT_URL)
 
@@ -41,7 +43,7 @@ The results of the scenarios can be obtained for the following KPIs across the p
 ## Would you like to know more?
 **The link to the journal paper with detailed methodology and analysis will be updated soon**
 
-This dashboard was developed as part of research on  **EV flexibility in residential energy systems**.
+This dashboard was developed as part of research on  **Implementation of Vehicle-to-Grid services in Sweden** funded by Vinnova and coordinated by Polestar Performance AB
 
 **Author:** Sankar Mangalath Ramasan  
 **Affiliation:** Chalmers University of Technology
