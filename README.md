@@ -43,73 +43,34 @@ The results presented in this repository are based on a Mixed-Integer Linear Pro
 
 The specification of EV and household technologies are given as in the table below:
 
-### EV Specifications
-
-<h2>System Specifications</h2>
-
 <table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
+<h3>EV Specifications</h3>
+
+<table>
+<tr><th>Parameter</th><th>Value</th></tr>
+<tr><td>EV battery capacity</td><td>65 kWh</td></tr>
+<tr><td>Maximum charge/discharge power</td><td>11 kW</td></tr>
+<tr><td>Charge/discharge efficiency</td><td>93%</td></tr>
+</table>
+
+</td>
+
+<td width="40"></td>
+
+<td valign="top">
 
 <h3>Household Technologies</h3>
 
 <table>
-<tr>
-<th>Parameter</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>PV capacity</td>
-<td>10 kWp</td>
-</tr>
-<tr>
-<td>BESS capacity</td>
-<td>30 kWh</td>
-</tr>
-<tr>
-<td>Charge/discharge efficiency</td>
-<td>93%</td>
-</tr>
+<tr><th>Parameter</th><th>Value</th></tr>
+<tr><td>PV capacity</td><td>10 kWp</td></tr>
+<tr><td>BESS capacity</td><td>30 kWh</td></tr>
+<tr><td>Charge/discharge efficiency</td><td>93%</td></tr>
 </table>
 
 </td>
-
-<td width="50%" valign="top">
-
-<h3>EV Specifications</h3>
-
-<table>
-<tr>
-<th>Parameter</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>EV battery capacity</td>
-<td>65 kWh</td>
-</tr>
-<tr>
-<td>Maximum charge/discharge power</td>
-<td>11 kW</td>
-</tr>
-<tr>
-<td>Charge/discharge efficiency</td>
-<td>93%</td>
-</tr>
-</table>
-
-</td>
-</tr>
-
-<tr>
-
-<td width="50%" align="center" valign="top">
-<img src="images/household.png" width="400">
-</td>
-
-<td width="50%" align="center" valign="top">
-<img src="images/ev.png" width="400">
-</td>
-
 </tr>
 </table>
 
