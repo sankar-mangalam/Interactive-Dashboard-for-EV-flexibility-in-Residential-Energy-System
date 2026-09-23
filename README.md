@@ -39,7 +39,7 @@ The results of the scenarios can be obtained for the following KPIs across the p
 
 
 ## Would you like to know more?
-- The link to the journal paper with detailed methodology and analysis will be updated soon
+**The link to the journal paper with detailed methodology and analysis will be updated soon**
 
 This dashboard was developed as part of research on  **EV flexibility in residential energy systems**.
 
@@ -53,4 +53,3 @@ Please cite the associated research publication when using results as below:
 
 *Mangalath Ramasan, Sankar and Sridhar, Araavind and Steen, David and Anh Tuan, Le, To V2G or Not? Assessing EV Flexibility Across Electricity Markets and User Behaviour in Residential Energy Systems. Available at SSRN: http://dx.doi.org/10.2139/ssrn.7403061*
 
-- 
