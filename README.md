@@ -15,11 +15,6 @@ The underlying research and detailed methodology are described in:
 
 The dashboard allows users to compare optimisation results across different residential energy-system configurations interactively.
 
-EV Specification 	
-EV Battery Capacity	65 kWh
-Maximum Charge/discharge power	11 kW
-Charge/discharge efficiency	93%
-<img width="293" height="81" alt="image" src="https://github.com/user-attachments/assets/2160d2c0-5d82-4ea7-a65a-ecb6d3c9101b" />
 
 
 ## What can you explore?
@@ -43,9 +38,25 @@ The results of the scenarios can be obtained for the following KPIs across the p
 - **Energy Throughput (kWh):** EV Energy Throughput
 
 ## Data and Methodology
-  The results presented in this repository are based on a Mixed-Integer Linear Programming (MILP) optimisation framework for residential energy systems with EV flexibility. Based on the input data (redidential demand, EV availability, prices), the model simulates the dispatch of EV based on an objective to minimise the total costs.
+The results presented in this repository are based on a Mixed-Integer Linear Programming (MILP) optimisation framework for residential energy systems with EV flexibility. Based on the input data, the model simulates the dispatch of EV based on an objective to minimise the total costs.
 - **Input Data:** The input data for the model includes historical prices from the spot market, FCR-N and FCR-D markets, residential demand, Solar PV generation data, EV arrival and desired SOC based on user behaviour, grid frequency deviation and ambient temperature.
 
+The specification of EV and household technologies are given as in the table below:
+### Household Technologies
+
+| Parameter | Value |
+|---|---:|
+| PV capacity | 10 kWp |
+| BESS capacity | 30 kWh |
+| Charge/discharge efficiency | 93% |
+
+### EV Specifications
+
+| Parameter | Value |
+|---|---:|
+| EV battery capacity | 65 kWh |
+| Maximum charge/discharge power | 11 kW |
+| Charge/discharge efficiency | 93% |
 
 ## Would you like to know more?
 **The link to the journal paper with detailed methodology and analysis will be updated soon**
