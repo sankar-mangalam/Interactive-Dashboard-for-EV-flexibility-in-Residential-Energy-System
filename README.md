@@ -15,6 +15,13 @@ The underlying research and detailed methodology are described in:
 
 The dashboard allows users to compare optimisation results across different residential energy-system configurations interactively.
 
+EV Specification 	
+EV Battery Capacity	65 kWh
+Maximum Charge/discharge power	11 kW
+Charge/discharge efficiency	93%
+<img width="293" height="81" alt="image" src="https://github.com/user-attachments/assets/2160d2c0-5d82-4ea7-a65a-ecb6d3c9101b" />
+
+
 ## What can you explore?
 
 The dashboard allows comparison across the following Scenarios:
