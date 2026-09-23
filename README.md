@@ -82,21 +82,34 @@ The EV user behaviour is formulated according to the working characteristics of 
 
 The SOC variation over the weekdays and weekends for all the user behaviour types are given as in the images below:
 
-<p align="center">
+<table>
+<tr>
+<td align="center">
+  <strong>Weekday Characteristics</strong>
+</td>
+<td align="center">
+  <strong>Weekend Characteristics</strong>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="top">
   <img
     src="https://github.com/user-attachments/assets/13f67cd0-d39b-49b6-b5a0-e5c778f8c60d"
     alt="Weekday Characteristics"
     height="500"
   />
-  &nbsp;&nbsp;&nbsp;&nbsp;
+</td>
+
+<td align="center" valign="top">
   <img
     src="https://github.com/user-attachments/assets/ded8ccf2-6243-4c20-89a1-65236a47a347"
     alt="Weekend Characteristics"
     height="500"
   />
-</p>
-
-
+</td>
+</tr>
+</table>
 
 
 
