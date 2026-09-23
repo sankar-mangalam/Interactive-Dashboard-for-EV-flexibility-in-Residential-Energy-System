@@ -42,13 +42,6 @@ The results presented in this repository are based on a Mixed-Integer Linear Pro
 - **Input Data:** The input data for the model includes historical prices from the spot market, FCR-N and FCR-D markets, residential demand, Solar PV generation data, EV arrival and desired SOC based on user behaviour, grid frequency deviation and ambient temperature.
 
 The specification of EV and household technologies are given as in the table below:
-### Household Technologies
-
-| Parameter | Value |
-|---|---:|
-| PV capacity | 10 kWp |
-| BESS capacity | 30 kWh |
-| Charge/discharge efficiency | 93% |
 
 ### EV Specifications
 
@@ -58,10 +51,26 @@ The specification of EV and household technologies are given as in the table bel
 | Maximum charge/discharge power | 11 kW |
 | Charge/discharge efficiency | 93% |
 
+### Household Technologies
+
+| Parameter | Value |
+|---|---:|
+| PV capacity | 10 kWp |
+| BESS capacity | 30 kWh |
+| Maximum charge/discharge power | 11 kW |
+| Charge/discharge efficiency | 93% |
+
+
 ### EV User behaviour
-The EV user behaviour is formulated according to the working characteristics of the user and broadly classified as Work-from-Home (WFH), Hybrid and Work-from-Office (WFO). Based on the characteristics, the arrival and desired SOC is formulated as given in the flowchart below:
+The EV user behaviour is formulated according to the working characteristics of the user and broadly classified as Work-from-Home (WFH), Hybrid and Work-from-Office (WFO). Based on the characteristics, the arrival and desired SOC is formulated for the entire year as given in the flowchart below:
 
 <img width="1180" height="1022" alt="image" src="https://github.com/user-attachments/assets/383607d3-17e0-4e3c-b4be-bd1ac2f95b90" />
+
+The SOC variation over the weekdays and weekends for all the user behaviour types are given as in the images below:
+
+<img width="884" height="824" alt="Weekday Characteristics" src="https://github.com/user-attachments/assets/13f67cd0-d39b-49b6-b5a0-e5c778f8c60d" />   <img width="1067" height="1573" alt="Weekend Characteristics" src="https://github.com/user-attachments/assets/ded8ccf2-6243-4c20-89a1-65236a47a347" />
+
+
 
 
 
