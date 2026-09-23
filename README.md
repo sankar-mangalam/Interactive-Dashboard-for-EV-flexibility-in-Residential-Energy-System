@@ -45,20 +45,73 @@ The specification of EV and household technologies are given as in the table bel
 
 ### EV Specifications
 
-| Parameter | Value |
-|---|---:|
-| EV battery capacity | 65 kWh |
-| Maximum charge/discharge power | 11 kW |
-| Charge/discharge efficiency | 93% |
+<h2>System Specifications</h2>
 
-### Household Technologies
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Parameter | Value |
-|---|---:|
-| PV capacity | 10 kWp |
-| BESS capacity | 30 kWh |
-| Maximum charge/discharge power | 11 kW |
-| Charge/discharge efficiency | 93% |
+<h3>Household Technologies</h3>
+
+<table>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+<tr>
+<td>PV capacity</td>
+<td>10 kWp</td>
+</tr>
+<tr>
+<td>BESS capacity</td>
+<td>30 kWh</td>
+</tr>
+<tr>
+<td>Charge/discharge efficiency</td>
+<td>93%</td>
+</tr>
+</table>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>EV Specifications</h3>
+
+<table>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+<tr>
+<td>EV battery capacity</td>
+<td>65 kWh</td>
+</tr>
+<tr>
+<td>Maximum charge/discharge power</td>
+<td>11 kW</td>
+</tr>
+<tr>
+<td>Charge/discharge efficiency</td>
+<td>93%</td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+<tr>
+
+<td width="50%" align="center" valign="top">
+<img src="images/household.png" width="400">
+</td>
+
+<td width="50%" align="center" valign="top">
+<img src="images/ev.png" width="400">
+</td>
+
+</tr>
+</table>
 
 
 ### EV User behaviour
