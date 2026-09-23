@@ -4,7 +4,7 @@ The dashboard presents results from an optimisation framework developed to inves
 The underlying study investigates the implications of various technical, market-related, and behavioural factors affecting the adoption and operation of EV flexibility. The research is conducted as a case study in Gothenburg, Sweden, using a Mixed-Integer Linear Programming (MILP) optimisation framework.
 
 The underlying research and detailed methodology are described in:
-[To V2G or Not? Assessing EV Flexibility Across Electricity Markets and User Behaviour in Residential Energy Systems](https://dx.doi.org/10.2139/ssrn.7403061)
+[Will be updated soon]
 
 
 ## Interactive Dashboard
@@ -34,6 +34,22 @@ The results of the scenarios can be obtained for the following KPIs across the p
 - **Energy Throughput (kWh):** EV Energy Throughput
 
   ## Data and Methodology
-  The results presented in this repository are based on a Mixed-Integer Linear Programming (MILP) optimisation framework for residential energy systems with EV flexibility. The optimisation model is based on time-series data at a 15-minute resolution based on data from 2022 and 2025.
-- **Input Data:** The input data for the model includes historical prices from the spot market, FCR-N and FCR-D markets, residential demand, Solar PV generation data, EV arrival and desired SOC based on user behaviour, grid frequency deviation and ambient temperature
-- **Modelling:** The model simulates the dispatch based on the input data and finds the optimal working condition based on 
+  The results presented in this repository are based on a Mixed-Integer Linear Programming (MILP) optimisation framework for residential energy systems with EV flexibility. Based on the input data (redidential demand, EV availability, prices), the model simulates the dispatch of EV based on an objective to minimise the total costs.
+- **Input Data:** The input data for the model includes historical prices from the spot market, FCR-N and FCR-D markets, residential demand, Solar PV generation data, EV arrival and desired SOC based on user behaviour, grid frequency deviation and ambient temperature.
+
+## Would you like to know more?
+- The link to the journal paper with detailed methodology and analysis will be updated soon
+    
+This dashboard was developed as part of research on  **EV flexibility in residential energy systems**.
+
+**Author:** Sankar Mangalath Ramasan  
+**Affiliation:** Chalmers University of Technology
+
+📄 **Research publication:** [Will be updated soon]()
+💻 **Source code:** [GitHub Repository](https://github.com/sankar-mangalam/EV-flexibility-in-Residential-Energy-System)
+
+Please cite the associated research publication when using results as below:
+
+*Mangalath Ramasan, Sankar and Sridhar, Araavind and Steen, David and Anh Tuan, Le, To V2G or Not? Assessing EV Flexibility Across Electricity Markets and User Behaviour in Residential Energy Systems. Available at SSRN: http://dx.doi.org/10.2139/ssrn.7403061*
+
+- 
