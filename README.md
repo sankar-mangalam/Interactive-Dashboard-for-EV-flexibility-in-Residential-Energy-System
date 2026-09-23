@@ -58,6 +58,13 @@ The specification of EV and household technologies are given as in the table bel
 | Maximum charge/discharge power | 11 kW |
 | Charge/discharge efficiency | 93% |
 
+### EV User behaviour
+The EV user behaviour is formulated according to the working characteristics of the user and broadly classified as Work-from-Home (WFH), Hybrid and Work-from-Office (WFO). Based on the characteristics, the arrival and desired SOC is formulated as given in the flowchart below:
+
+<img width="1180" height="1022" alt="image" src="https://github.com/user-attachments/assets/383607d3-17e0-4e3c-b4be-bd1ac2f95b90" />
+
+
+
 ## Would you like to know more?
 **The link to the journal paper with detailed methodology and analysis will be updated soon**
 
