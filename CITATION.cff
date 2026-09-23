@@ -1,8 +1,7 @@
 cff-version: 1.2.0
-message: "If you use this dashboard, code, or associated data, please cite the research publication below."
+message: "If you use this dashboard, or associated data, please cite the research article below."
 
-title: "EV Flexibility in Residential Energy Systems Dashboard"
-type: Dashboard
+title: "Interactive Dashboard for EV Flexibility in Residential Energy Systems"
 
 authors:
   - family-names: "Mangalath Ramasan"
@@ -13,5 +12,11 @@ preferred-citation:
   authors:
     - family-names: "Mangalath Ramasan"
       given-names: "Sankar"
+    - family-names: "Sridhar"
+      given-names: "Araavind"
+    - family-names: "Steen"
+      given-names: "David"
+    - family-names: "Le"
+      given-names: "Anh Tuan"
   title: "To V2G or Not? Assessing EV Flexibility Across Electricity Markets and User Behaviour in Residential Energy Systems"
   doi: "10.2139/ssrn.7403061"
