@@ -33,13 +33,14 @@ The results of the scenarios can be obtained for the following KPIs across the p
 - **Energy Import/Export (kWh):** EV charge Energy (FCRN and FCRD), EV Discharge Energy (FCRN and FCRD), BESS Charge Energy (FCRN and FCRD), BESS Discharge Energy (FCRN and FCRD), Spot Import/Export Energy
 - **Energy Throughput (kWh):** EV Energy Throughput
 
-  ## Data and Methodology
+## Data and Methodology
   The results presented in this repository are based on a Mixed-Integer Linear Programming (MILP) optimisation framework for residential energy systems with EV flexibility. Based on the input data (redidential demand, EV availability, prices), the model simulates the dispatch of EV based on an objective to minimise the total costs.
 - **Input Data:** The input data for the model includes historical prices from the spot market, FCR-N and FCR-D markets, residential demand, Solar PV generation data, EV arrival and desired SOC based on user behaviour, grid frequency deviation and ambient temperature.
 
+
 ## Would you like to know more?
 - The link to the journal paper with detailed methodology and analysis will be updated soon
-    
+
 This dashboard was developed as part of research on  **EV flexibility in residential energy systems**.
 
 **Author:** Sankar Mangalath Ramasan  
