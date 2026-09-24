@@ -1296,7 +1296,11 @@ if show_cost_breakup:
         zerolinecolor="rgba(80,80,80,0.5)"
     )
 
-st.plotly_chart(fig, use_container_width=1600)
+st.plotly_chart(
+    fig,
+    width="stretch",
+    config={"responsive": True}
+)
 
 # ============================================================
 # FOOTER
