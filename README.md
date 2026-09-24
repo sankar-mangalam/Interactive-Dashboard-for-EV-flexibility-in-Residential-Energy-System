@@ -10,7 +10,7 @@ This dashboard was developed as part of research on  **Implementation of Vehicle
 <img width="1587" height="944" alt="image" src="https://github.com/user-attachments/assets/9ea4d479-b9cc-408e-b651-74c22a2f76d0" />
 
 
---> [Launch the Streamlit dashboard](YOUR_STREAMLIT_URL)
+--> [Launch the Interactive dashboard](YOUR_STREAMLIT_URL)
 
 The dashboard allows users to compare optimisation results across different residential energy-system configurations interactively.
 
