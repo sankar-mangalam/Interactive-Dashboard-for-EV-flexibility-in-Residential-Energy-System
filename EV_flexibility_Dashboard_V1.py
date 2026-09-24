@@ -9,13 +9,15 @@ st.set_page_config(layout="wide")
 # ================= GLOBAL FONT SETTINGS =================
 
 TITLE_FONT_SIZE = 30
-AXIS_TITLE_FONT_SIZE = 24#40
-AXIS_TICK_FONT_SIZE = 18#34
-LEGEND_FONT_SIZE = 22#32
-WORK_LABEL_FONT_SIZE = 16 #34
-MARKET_LABEL_FONT_SIZE = 22#34
-HOVER_FONT_SIZE = 18
-ANNOTATION_FONT_SIZE = 50
+
+# Base Plotly font sizes (100% graph font scale)
+BASE_AXIS_TITLE_FONT_SIZE = 24
+BASE_AXIS_TICK_FONT_SIZE = 18
+BASE_LEGEND_FONT_SIZE = 22
+BASE_WORK_LABEL_FONT_SIZE = 16
+BASE_MARKET_LABEL_FONT_SIZE = 22
+BASE_HOVER_FONT_SIZE = 18
+BASE_ANNOTATION_FONT_SIZE = 50
 
 # ================= LOAD DATA =================
 @st.cache_data
@@ -550,6 +552,30 @@ secondary_group = st.sidebar.selectbox("Secondary Axis Type", list(KPI_GROUPS.ke
                                        format_func=lambda x: GROUP_LABELS[x])
 
 secondary_kpis = st.sidebar.multiselect("Secondary KPIs", KPI_GROUPS[secondary_group])
+
+# ================= GRAPH FONT SIZE =================
+# 100% preserves the original Plotly font sizes.
+# Users on smaller screens can reduce this value to avoid overlapping labels.
+st.sidebar.markdown("### Graph Display")
+
+graph_font_scale = st.sidebar.slider(
+    "Graph font size (%)",
+    min_value=50,
+    max_value=120,
+    value=100,
+    step=5,
+    help="Adjust the text size inside the graph. Try 70–80% on smaller laptop screens."
+)
+
+font_scale = graph_font_scale / 100.0
+
+AXIS_TITLE_FONT_SIZE = max(8, round(BASE_AXIS_TITLE_FONT_SIZE * font_scale))
+AXIS_TICK_FONT_SIZE = max(8, round(BASE_AXIS_TICK_FONT_SIZE * font_scale))
+LEGEND_FONT_SIZE = max(8, round(BASE_LEGEND_FONT_SIZE * font_scale))
+WORK_LABEL_FONT_SIZE = max(8, round(BASE_WORK_LABEL_FONT_SIZE * font_scale))
+MARKET_LABEL_FONT_SIZE = max(8, round(BASE_MARKET_LABEL_FONT_SIZE * font_scale))
+HOVER_FONT_SIZE = max(8, round(BASE_HOVER_FONT_SIZE * font_scale))
+ANNOTATION_FONT_SIZE = max(8, round(BASE_ANNOTATION_FONT_SIZE * font_scale))
 
 EV_ONLY_KPIS = {
     "FCRN Returns",
