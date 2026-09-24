@@ -111,6 +111,10 @@ The SOC variation over the weekdays and weekends for all the user behaviour type
 </tr>
 </table>
 
+## Key Results
+- <img width="1481" height="770" alt="image" src="https://github.com/user-attachments/assets/1d5caafa-4a44-4b99-89aa-472e9b40d920" />
+
+
 
 
 ## Would you like to know more?
