@@ -3,6 +3,8 @@ The dashboard presents results from an optimisation framework developed to inves
 
 The underlying study investigates the implications of various technical, market-related, and behavioural factors affecting the adoption and operation of EV flexibility. The research is conducted as a case study in Gothenburg, Sweden, using a Mixed-Integer Linear Programming (MILP) optimisation framework.
 
+This dashboard was developed as part of research on  **Implementation of Vehicle-to-Grid services in Sweden** funded by Vinnova and coordinated by Polestar Performance AB
+
 The underlying research and detailed methodology are described in:
 [Will be updated soon]
 
@@ -116,8 +118,6 @@ The SOC variation over the weekdays and weekends for all the user behaviour type
 
 ## Would you like to know more?
 **The link to the journal paper with detailed methodology and analysis will be updated soon**
-
-This dashboard was developed as part of research on  **Implementation of Vehicle-to-Grid services in Sweden** funded by Vinnova and coordinated by Polestar Performance AB
 
 **Author:** Sankar Mangalath Ramasan  
 **Affiliation:** Chalmers University of Technology
