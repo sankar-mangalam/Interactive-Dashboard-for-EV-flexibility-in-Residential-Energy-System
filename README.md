@@ -112,7 +112,12 @@ The SOC variation over the weekdays and weekends for all the user behaviour type
 </table>
 
 ## Key Results
-- <img width="1481" height="770" alt="image" src="https://github.com/user-attachments/assets/1d5caafa-4a44-4b99-89aa-472e9b40d920" />
+
+###Value creation from EV Flexibility
+<img width="741" height="385" alt="image" src="https://github.com/user-attachments/assets/1d5caafa-4a44-4b99-89aa-472e9b40d920" />
+- Market participation of EV is beneficial both from EV battery ageing and total cost perspective. Revenue from market participation leads to lower household electricity cost, while higher EV throughput leads to lower calendar ageing.  
+
+
 
 
 
