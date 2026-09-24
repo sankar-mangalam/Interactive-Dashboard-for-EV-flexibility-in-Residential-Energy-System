@@ -1200,7 +1200,7 @@ if end > 0 and current_market is not None:
 # ================= LAYOUT =================
 fig.update_layout(
 
-    width= 2800,
+    #width= 2800,
 
     margin=dict(
     t=150,
