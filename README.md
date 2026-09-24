@@ -120,6 +120,7 @@ The SOC variation over the weekdays and weekends for all the user behaviour type
 **Affiliation:** Chalmers University of Technology
 
 📄 **Research publication:** [Will be updated soon]()
+
 💻 **Source code:** [GitHub Repository](https://github.com/sankar-mangalam/EV-flexibility-in-Residential-Energy-System)
 
 Please cite the associated research publication when using results as below:
