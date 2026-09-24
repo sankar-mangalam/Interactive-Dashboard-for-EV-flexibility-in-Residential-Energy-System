@@ -113,9 +113,30 @@ The SOC variation over the weekdays and weekends for all the user behaviour type
 
 ## Key Results
 
-###Value creation from EV Flexibility
-<img width="741" height="385" alt="image" src="https://github.com/user-attachments/assets/1d5caafa-4a44-4b99-89aa-472e9b40d920" />
-- Market participation of EV is beneficial both from EV battery ageing and total cost perspective. Revenue from market participation leads to lower household electricity cost, while higher EV throughput leads to lower calendar ageing.  
+### Economic Value of EV Flexibility
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/1d5caafa-4a44-4b99-89aa-472e9b40d920"
+    alt="Impact of EV flexibility on household electricity cost and EV battery ageing"
+    width="741"
+  />
+</p>
+
+> **Key finding:** Electricity-market participation creates value from EV flexibility by reducing household electricity costs through market revenues. Increased utilisation of the EV battery can also reduce overall battery ageing, as ageing is more strongly influenced by prolonged periods at higher SOC than by increased cycling.
+
+### Influence of EV User Behaviour
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/7ad9c43d-6602-4dfd-a454-abd9ceabfdac"
+    alt="Impact of EV user behaviour on the value of EV flexibility"
+    width="745"
+  />
+</p>
+
+> **Key finding:** EV availability strongly influences the value that can be obtained from flexibility. Users following hybrid and work-from-home (WFH) patterns can achieve higher market revenues because the EV remains connected to the residential energy system for longer periods, increasing its availability for market participation.
+
 
 
 
