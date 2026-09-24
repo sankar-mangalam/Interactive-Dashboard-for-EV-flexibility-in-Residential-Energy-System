@@ -37,7 +37,7 @@ The results of the scenarios can be obtained for the following KPIs across the p
 - **Energy Throughput (kWh):** EV Energy Throughput
 
 ## Data and Methodology
-The results presented in this repository are based on a Mixed-Integer Linear Programming (MILP) optimisation framework for residential energy systems with EV flexibility. Based on the input data, the model simulates the dispatch of EV based on an objective to minimise the total costs.
+The results presented in this repository are based on a Mixed-Integer Linear Programming (MILP) optimisation framework for residential energy systems with EV flexibility. Based on the input data, the model simulates the dispatch of EV based on an **objective to minimise the total costs**.
 - **Input Data:** The input data for the model includes historical prices from the spot market, FCR-N and FCR-D markets, residential demand, Solar PV generation data, EV arrival and desired SOC based on user behaviour, grid frequency deviation and ambient temperature.
 
 The specification of EV and household technologies are given as in the table below:
