@@ -478,7 +478,7 @@ year = st.sidebar.selectbox("Year", [2025, 2022])
 st.sidebar.markdown("### Electric Vehicle (EV)")
 
 ev_selection = st.sidebar.radio(
-    "Select scenarios with and/or without if EV in the system",
+    "Select scenarios with and/or without EV in the system",
     ["With", "Without", "Both"],
     horizontal=True
 )
