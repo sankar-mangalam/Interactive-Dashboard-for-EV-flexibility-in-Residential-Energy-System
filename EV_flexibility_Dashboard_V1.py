@@ -203,12 +203,12 @@ def filter_scenarios(
         # EV SELECTION
         # =====================================================
 
-        # EV = YES -> exclude BASE
-        if ev_selection == "Yes" and is_base:
+        # EV = With -> exclude BASE
+        if ev_selection == "With" and is_base:
             continue
 
-        # EV = NO -> BASE only
-        if ev_selection == "No" and not is_base:
+        # EV = Without -> BASE only
+        if ev_selection == "Without" and not is_base:
             continue
 
         # =====================================================
@@ -487,7 +487,7 @@ ev_selection = st.sidebar.radio(
 # ================= EV-DEPENDENT FILTERS =================
 # Only show these when EV scenarios are included
 
-if ev_selection in ["Yes", "Both"]:
+if ev_selection in ["With", "Both"]:
 
     st.sidebar.markdown("### Charging Strategies and Markets")
 
@@ -524,7 +524,7 @@ for tech in ["PV", "HEAT", "BESS"]:
 # ================= EV BATTERY AGEING =================
 # Only relevant when EV is present
 
-if ev_selection in ["Yes", "Both"]:
+if ev_selection in ["With", "Both"]:
 
     st.sidebar.markdown("### EV battery ageing")
 
@@ -582,7 +582,7 @@ EV_ONLY_KPIS = {
 
 selected_kpis = primary_kpis + secondary_kpis
 
-if ev_selection == "No":
+if ev_selection == "Without":
 
     unavailable_kpis = [
         kpi
@@ -615,7 +615,7 @@ if ev_selection == "No":
     ]
 
 # ================= DATA =================
-if ev_selection in ["Yes", "Both"]:
+if ev_selection in ["With", "Both"]:
 
     if not selected_markets:
         st.warning(
