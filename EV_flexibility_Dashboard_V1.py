@@ -478,8 +478,8 @@ year = st.sidebar.selectbox("Year", [2025, 2022])
 st.sidebar.markdown("### Electric Vehicle (EV)")
 
 ev_selection = st.sidebar.radio(
-    "Select if EV is considered in the system",
-    ["Yes", "No", "Both"],
+    "Select scenarios with and/or without if EV in the system",
+    ["With", "Without", "Both"],
     horizontal=True
 )
 
@@ -529,7 +529,7 @@ if ev_selection in ["Yes", "Both"]:
     st.sidebar.markdown("### EV battery ageing")
 
     tech_filters["AGEING"] = st.sidebar.radio(
-        "Select if EV battery ageing cost is part of the Objective",
+        "Select scenarios with and/or without EV battery ageing cost in the Objective",
         ["All", "With", "Without"],
         horizontal=True
     )
