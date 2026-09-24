@@ -452,13 +452,12 @@ with st.expander("ℹ️ About this dashboard & How to use"):
 
     ### About this project
     
-    This dashboard was developed as part of research on
-    **EV flexibility in residential energy systems**.
+    This dashboard was developed as part of research on **Implementation of Vehicle-to-Grid services in Sweden** funded by **Vinnova** and coordinated by **Polestar Performance AB**
 
     **Author:** Sankar Mangalath Ramasan  
     **Affiliation:** Chalmers University of Technology
 
-    📄 **Research publication:** [View publication](https://dx.doi.org/10.2139/ssrn.7403061)
+    📄 **Research publication:** [Will be updated soon]()
 
     💻 **Source code:** [GitHub Repository](https://github.com/sankar-mangalam/EV-flexibility-in-Residential-Energy-System)
 
