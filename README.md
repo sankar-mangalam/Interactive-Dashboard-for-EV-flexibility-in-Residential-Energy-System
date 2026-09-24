@@ -5,9 +5,6 @@ The underlying study investigates the implications of various technical, market-
 
 This dashboard was developed as part of research on  **Implementation of Vehicle-to-Grid services in Sweden** funded by Vinnova and coordinated by Polestar Performance AB
 
-The underlying research and detailed methodology are described in:
-[Will be updated soon]
-
 
 ## Interactive Dashboard
 ****<img width="1587" height="944" alt="image" src="https://github.com/user-attachments/assets/9ea4d479-b9cc-408e-b651-74c22a2f76d0" />
